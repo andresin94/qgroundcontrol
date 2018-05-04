@@ -12,11 +12,11 @@ Website: <http://qgroundcontrol.com>
 
 Source code for QGroundControl is kept on GitHub: https://github.com/mavlink/qgroundcontrol.
 ```
-git clone --recursive https://github.com/mavlink/qgroundcontrol.git
+git clone --recursive https://github.com/borekon/qgroundcontrol.git
 ```
 Each time you pull new source to your repository you should run `git submodule update` to get the latest submodules as well. Since QGroundControl uses submodules, using the zip file for source download will not work. You must use git.
 
-The source code is [dual-licensed under Apache 2.0 and GPLv3](https://github.com/mavlink/qgroundcontrol/blob/master/COPYING.md).
+The source code is [dual-licensed under Apache 2.0 and GPLv3](https://github.com/borekon/qgroundcontrol/blob/master/COPYING.md).
 
 ### User Manual
 https://docs.qgroundcontrol.com/en/
@@ -86,4 +86,4 @@ QGroundControl can talk to XBee wireless devices using their proprietary protoco
 To disable XBee support you may add `DEFINES+=DISABLE_XBEE` to qmake.
 
 ### Video Streaming
-Check the [Video Streaming](https://github.com/mavlink/qgroundcontrol/tree/master/src/VideoStreaming) directory for further instructions.
+Check the [Video Streaming](https://github.com/borekon/qgroundcontrol/tree/master/src/VideoStreaming) directory for further instructions.
